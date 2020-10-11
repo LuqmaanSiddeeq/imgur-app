@@ -1,0 +1,43 @@
+.card__container {
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	border: 1px solid;
+	border-radius: 12px;
+	margin: 30px;
+}
+.card__image {
+	position: relative;
+	display: flex;
+	background-color: lightgray;
+	border-radius: 12px 12px 0 0;
+	object-fit: contain;
+	justify-content: center;
+}
+.card__image .card__imageCounter {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.card__info {
+	padding: 10px;
+}
+.card__postedDate {
+	color: gray;
+	margin-top: 10px;
+}
+.card__tags {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.card__tags .each__tag {
+	background-color: lightseagreen;
+	color: #fff;
+	border-radius: 30px;
+	padding: 10px;
+	margin-right: 10px;
+}

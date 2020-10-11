@@ -1,0 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.card__container__app {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
