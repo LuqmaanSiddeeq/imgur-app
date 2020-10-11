@@ -5,7 +5,7 @@ import Card from "./Components/Card";
 function App() {
 	return (
 		<div className="App">
-			<h3>Hello Javascript!</h3>
+			<h1>Imgur App</h1>
 			<div className="card__container__app">
 				<Card
 					imageCounter="1/2"
